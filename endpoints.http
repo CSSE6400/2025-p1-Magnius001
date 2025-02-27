@@ -6,17 +6,19 @@ GET {{baseUrl}}/api/v1/health
 ### List All Todos
 GET {{baseUrl}}/api/v1/todos
 
-### List All Todos
+### List 1 Todos
 GET {{baseUrl}}/api/v1/todos/1
 
 ### Create a Todo
 POST {{baseUrl}}/api/v1/todos
 Content-Type: application/json
 
-{"title": "An example Todo",
-"description": "This is an example todo",}
+{
+    "title": "An example Todo",
+    "description": "This is an example todo",
+}
 
-##Update a Todo
+### Update a Todo
 PUT {{baseUrl}}/api/v1/todos/1
 Content-Type: application/json
 
